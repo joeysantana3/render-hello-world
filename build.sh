@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 # exit on error
 python --version
+poetry --version
+poetry lock
+
 set -o errexit
 
 poetry install

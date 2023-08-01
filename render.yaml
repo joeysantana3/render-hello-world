@@ -20,7 +20,7 @@ services:
         value: 4
       - key: PYTHON_VERSION
         value: 3.8.2
-      -key: POETRY_VERSION
+      - key: POETRY_VERSION
         value: 1.5.1
 
         
